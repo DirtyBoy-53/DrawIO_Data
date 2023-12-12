@@ -1,0 +1,251 @@
+<mxfile host="Electron" modified="2023-11-29T13:02:44.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="JmTheQzSN3TSslWVrWGf" version="22.1.2" type="device">
+  <diagram name="功能组织" id="co78OGK67mmPwKt4Koxj">
+    <mxGraphModel dx="1830" dy="491" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-1" value="XY-annotation" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-476" y="103" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-2" value="2D" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=16;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-304" y="93" width="55" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-2" parent="1" source="f6d8hfD8xbWadYzoVJBQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-191" y="78" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-4" value="3D" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=16;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-686" y="99" width="55" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-5" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-4" parent="1" source="f6d8hfD8xbWadYzoVJBQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-304" y="243" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-7" value="基于Labelimg&lt;br&gt;目标检测&lt;br&gt;（矩形标注）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=16;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-161" y="2" width="132" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-8" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-7" parent="1" source="f6d8hfD8xbWadYzoVJBQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-165" y="-21" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-9" value="基于Labelme&lt;br&gt;目标分割&lt;br&gt;（多边形标注）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=16;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-139" y="370" width="147" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-10" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-9" parent="1" source="f6d8hfD8xbWadYzoVJBQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-152" y="85" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-170" y="93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-11" value="点云标注" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=16;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-873" y="97" width="99" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-12" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-11" parent="1" source="f6d8hfD8xbWadYzoVJBQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-167" y="243" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="1. 打开单个文件&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 打开目录&lt;br style=&quot;font-size: 12px;&quot;&gt;3. 上/下一个文件" treeRoot="1" id="f6d8hfD8xbWadYzoVJBQ-26">
+          <mxCell style="whiteSpace=wrap;html=1;align=left;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=12;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#3dae59;rounded=1;verticalAlign=middle;" vertex="1" parent="1">
+            <mxGeometry x="338" y="55" width="147" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-28" value="文件操作" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=16;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="73" y="159" width="99" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-29" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-28" parent="1" source="f6d8hfD8xbWadYzoVJBQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="379" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-30" value="图形编辑" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=16;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="73" y="411" width="99" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-31" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-30" parent="1" source="f6d8hfD8xbWadYzoVJBQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="22.051111111111084" y="448.8888888888889" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-32" value="视图显示" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=16;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="93" y="753" width="99" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-33" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-32" parent="1" source="f6d8hfD8xbWadYzoVJBQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-11.998888888888914" y="452.9988888888889" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-37" value="创建" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="221.99999999999997" y="399.91" width="59" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-38" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-37" parent="1" source="f6d8hfD8xbWadYzoVJBQ-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="213.00222222222217" y="440.8888888888889" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-39" value="编辑" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="240.99999999999997" y="564" width="59" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-40" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-39" parent="1" source="f6d8hfD8xbWadYzoVJBQ-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="188.00222222222217" y="444.9988888888889" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="207" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-46" value="dock窗口" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" visible="0" collapsed="1" parent="1">
+          <mxGeometry x="260" y="698" width="84" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-47" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" visible="0" target="f6d8hfD8xbWadYzoVJBQ-46" parent="1" source="f6d8hfD8xbWadYzoVJBQ-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="228" y="642" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-53" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#0B4D6A;" edge="1" parent="1" source="f6d8hfD8xbWadYzoVJBQ-48" target="f6d8hfD8xbWadYzoVJBQ-52" visible="0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-48" value="操作" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" visible="0" collapsed="1" parent="1">
+          <mxGeometry x="268" y="836" width="59" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-49" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" visible="0" target="f6d8hfD8xbWadYzoVJBQ-48" parent="1" source="f6d8hfD8xbWadYzoVJBQ-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="211" y="695" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="1. 填充所绘多边形&lt;br&gt;2. 隐藏/显示多边形&lt;br&gt;3. 放大/缩小/原始&lt;br&gt;4. 适应窗口/宽度&lt;br&gt;5. 亮度/对比度调节" treeRoot="1" id="f6d8hfD8xbWadYzoVJBQ-52">
+          <mxCell style="whiteSpace=wrap;html=1;align=left;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" visible="0" parent="1">
+            <mxGeometry x="362" y="805" width="120" height="108" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-64" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#0B4D6A;" edge="1" parent="1" source="f6d8hfD8xbWadYzoVJBQ-54" target="f6d8hfD8xbWadYzoVJBQ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-54" value="打开" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="246" y="67" width="59" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-55" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-54" parent="1" source="f6d8hfD8xbWadYzoVJBQ-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="184" y="266" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-63" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#0B4D6A;" edge="1" parent="1" source="f6d8hfD8xbWadYzoVJBQ-56" target="f6d8hfD8xbWadYzoVJBQ-60" visible="0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-56" value="保存" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="242" y="166" width="59" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-57" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-56" parent="1" source="f6d8hfD8xbWadYzoVJBQ-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="211" y="341" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-62" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#0B4D6A;" edge="1" parent="1" source="f6d8hfD8xbWadYzoVJBQ-58" target="f6d8hfD8xbWadYzoVJBQ-61" visible="0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-58" value="关闭" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="234" y="253" width="59" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-59" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-58" parent="1" source="f6d8hfD8xbWadYzoVJBQ-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231" y="354" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font color=&quot;#329f39&quot;&gt;1. 保存/另存&lt;/font&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 自动保存&lt;br style=&quot;font-size: 12px;&quot;&gt;3. 路径选择&lt;br style=&quot;font-size: 12px;&quot;&gt;4. 图像数据是否保存在json" treeRoot="1" id="f6d8hfD8xbWadYzoVJBQ-60">
+          <mxCell style="whiteSpace=wrap;html=1;align=left;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=12;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;verticalAlign=middle;" vertex="1" visible="0" parent="1">
+            <mxGeometry x="335" y="152" width="147" height="79" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="1. 关闭文件&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 退出软件" treeRoot="1" id="f6d8hfD8xbWadYzoVJBQ-61">
+          <mxCell style="whiteSpace=wrap;html=1;align=left;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=12;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;verticalAlign=middle;" vertex="1" visible="0" parent="1">
+            <mxGeometry x="339" y="256" width="147" height="51.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-65" value="&lt;font style=&quot;&quot; color=&quot;#ffffff&quot;&gt;AI多边形&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-66" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-65" parent="1" source="f6d8hfD8xbWadYzoVJBQ-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="486" y="412.91" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-67" value="1. 多边形&lt;br style=&quot;color: rgb(21, 178, 105);&quot;&gt;&lt;span style=&quot;color: rgb(21, 178, 105);&quot;&gt;2. 折线&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-68" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-67" parent="1" source="f6d8hfD8xbWadYzoVJBQ-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="447.91" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-69" value="1. 矩形、直线&lt;br style=&quot;color: rgb(21, 178, 105);&quot;&gt;&lt;span style=&quot;color: rgb(21, 178, 105);&quot;&gt;2. 顶点（在任意图形中加入-&lt;br&gt;便于控制-自动吸附）&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="320" y="345" width="165" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-70" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-69" parent="1" source="f6d8hfD8xbWadYzoVJBQ-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="401.91" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-71" value="编辑多边形" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" visible="0" parent="1">
+          <mxGeometry x="350" y="527" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-72" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" visible="0" target="f6d8hfD8xbWadYzoVJBQ-71" parent="1" source="f6d8hfD8xbWadYzoVJBQ-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333" y="589" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-73" value="编辑标签（标签窗口-便于复用）" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" visible="0" parent="1">
+          <mxGeometry x="350" y="561" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-74" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" visible="0" target="f6d8hfD8xbWadYzoVJBQ-73" parent="1" source="f6d8hfD8xbWadYzoVJBQ-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="267.9958620689656" y="592.1379310344828" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-75" value="复制/删除多边形" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" visible="0" parent="1">
+          <mxGeometry x="350" y="591" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-76" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" visible="0" target="f6d8hfD8xbWadYzoVJBQ-75" parent="1" source="f6d8hfD8xbWadYzoVJBQ-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-77" value="撤销上一次操作" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" visible="0" parent="1">
+          <mxGeometry x="350" y="631" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-78" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" visible="0" target="f6d8hfD8xbWadYzoVJBQ-77" parent="1" source="f6d8hfD8xbWadYzoVJBQ-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="715" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-79" value="1. 标记&lt;br style=&quot;color: rgb(65, 193, 62);&quot;&gt;&lt;span style=&quot;color: rgb(65, 193, 62);&quot;&gt;2. 标签列表&lt;/span&gt;&lt;br style=&quot;color: rgb(65, 193, 62);&quot;&gt;&lt;span style=&quot;color: rgb(65, 193, 62);&quot;&gt;3. 多边形标签&lt;/span&gt;&lt;br style=&quot;color: rgb(65, 193, 62);&quot;&gt;&lt;span style=&quot;color: rgb(65, 193, 62);&quot;&gt;4. 文件列表&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" visible="0" parent="1">
+          <mxGeometry x="368" y="692" width="108" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-80" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" visible="0" target="f6d8hfD8xbWadYzoVJBQ-79" parent="1" source="f6d8hfD8xbWadYzoVJBQ-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="347" y="793" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-81" value="1. 绘制多个顶点&lt;br&gt;2. 支持插入顶点&lt;br&gt;3. 支持拖动顶点&lt;br&gt;4. 直线/曲线选择&lt;br&gt;5. 自动封闭多边形" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="509" y="363.91" width="132" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-82" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-81" parent="1" source="f6d8hfD8xbWadYzoVJBQ-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="386" y="448" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-83" value="选择是否使用OpenGL绘制" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="320" y="527" width="176" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f6d8hfD8xbWadYzoVJBQ-84" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=1;strokeColor=#0B4D6A;" edge="1" target="f6d8hfD8xbWadYzoVJBQ-83" parent="1" source="f6d8hfD8xbWadYzoVJBQ-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
