@@ -1,0 +1,130 @@
+<mxfile host="Electron" modified="2023-12-12T09:40:24.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="DKnWCDUJ2drzpvxe6vIc" version="22.1.2" type="device">
+  <diagram name="第 1 页" id="zbNENaRYxdtRhJWrooMu">
+    <mxGraphModel dx="1182" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-2" target="0yhc_yyP61baPUvZY_Cl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-2" value="解锁转盘" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-3" target="0yhc_yyP61baPUvZY_Cl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-3" value="等待机械卡位下降&lt;br&gt;1.提示“请推动转盘”" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-5" target="0yhc_yyP61baPUvZY_Cl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-5" value="监测到推动转盘动作&lt;br&gt;1.PLC加锁&lt;br&gt;2.机械卡位升起" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-7" target="0yhc_yyP61baPUvZY_Cl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-7" value="收到转盘到位信号&lt;br&gt;1.产品有无&lt;br&gt;2.产品放错&lt;br&gt;3.开始扫码获取SN" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="470" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-7" target="0yhc_yyP61baPUvZY_Cl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-9" target="0yhc_yyP61baPUvZY_Cl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-9" value="获取到SN&lt;br&gt;1.发送定位上升信号" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-11" target="0yhc_yyP61baPUvZY_Cl-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="535" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-11" value="无SN，回车进行下一轮&lt;br&gt;1.机械卡位下降&lt;br&gt;2.提示“请推动转盘”" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="475" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-15" target="0yhc_yyP61baPUvZY_Cl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-15" value="获取到上升完成信号&lt;br&gt;1.发送检测下压信号" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-17" target="0yhc_yyP61baPUvZY_Cl-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-17" target="0yhc_yyP61baPUvZY_Cl-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-35" value="&lt;font color=&quot;#f50a0a&quot;&gt;NG&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0yhc_yyP61baPUvZY_Cl-32">
+          <mxGeometry x="-0.4667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-17" value="获取到下压到位信号&lt;br&gt;1.开始气检(充气)" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-19" target="0yhc_yyP61baPUvZY_Cl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-36" value="&lt;font color=&quot;#ff0000&quot;&gt;NG&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0yhc_yyP61baPUvZY_Cl-33">
+          <mxGeometry x="-0.4385" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-19" value="获取到充气完成信号&lt;br&gt;1.发送保压信号&lt;br&gt;2.开始大漏测试" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-21" target="0yhc_yyP61baPUvZY_Cl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-37" value="&lt;font color=&quot;#ff0000&quot;&gt;NG&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0yhc_yyP61baPUvZY_Cl-34">
+          <mxGeometry x="-0.4117" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-21" value="获取到大漏完成信号&lt;br&gt;1.发送微漏测试" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-23" target="0yhc_yyP61baPUvZY_Cl-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-23" value="获取到微漏完成信号&lt;br&gt;1.提示“测试通过”&lt;br&gt;2.发送气缸上升信号&lt;br&gt;3.定位下降信号&lt;br&gt;4.解锁信号" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1080" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-25" target="0yhc_yyP61baPUvZY_Cl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-25" value="提示“手动转动转盘”&lt;br&gt;获取到转盘转动信号&lt;br&gt;1.发送加锁信号&lt;br&gt;2.机械卡位升起" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0yhc_yyP61baPUvZY_Cl-27" target="0yhc_yyP61baPUvZY_Cl-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-27" value="获取到转盘到位信号&lt;br&gt;1.产品有无检测&lt;br&gt;2.产品防错检测&lt;br&gt;3.发送扫码信号" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-29" value="获取到SN后&lt;br&gt;1.发送定位上升信号&lt;br&gt;2.开始下一轮" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-31" value="&lt;font color=&quot;#ff0000&quot;&gt;手动：&lt;br&gt;1.拉开红箱&lt;br&gt;2.气缸下压抬起&lt;br&gt;3.定位下降&lt;br&gt;4.解锁&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="770" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

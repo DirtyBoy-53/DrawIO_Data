@@ -1,0 +1,235 @@
+<mxfile host="Electron" modified="2023-12-21T07:47:14.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="t_g73D7nowibbOBISfkn" version="22.1.2" type="device" pages="3">
+  <diagram name="气密性检测功能分析" id="zbNENaRYxdtRhJWrooMu">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-2" target="0yhc_yyP61baPUvZY_Cl-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-2" value="解锁&lt;font color=&quot;#0000ff&quot;&gt;转盘&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-3" target="0yhc_yyP61baPUvZY_Cl-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-3" value="获取到机械卡位下降信号&lt;br&gt;1.提示“请推动转盘”" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="430" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-5" target="0yhc_yyP61baPUvZY_Cl-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-5" value="获取到转盘动作信号&lt;br&gt;1.发送&lt;font color=&quot;#0000ff&quot;&gt;加锁&lt;/font&gt;信号&lt;br&gt;2.机械卡位升起" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="450" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-7" target="0yhc_yyP61baPUvZY_Cl-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-7" value="获取到转盘到位信号&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;1.产品有无检测&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2.产品防错检测&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3.发送扫码信号" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-7" target="0yhc_yyP61baPUvZY_Cl-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-40" value="&lt;font color=&quot;#ff0000&quot;&gt;NG&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0yhc_yyP61baPUvZY_Cl-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.0708" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-9" target="0yhc_yyP61baPUvZY_Cl-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-9" value="获取到SN&lt;br&gt;1.发送底盘上升信号" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0yhc_yyP61baPUvZY_Cl-11" target="0yhc_yyP61baPUvZY_Cl-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="535" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-11" value="&lt;font color=&quot;#ff0000&quot;&gt;无SN，回车进行下一轮&lt;br&gt;1.机械卡位下降&lt;br&gt;2.提示“请推动转盘”&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="395" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-15" target="0yhc_yyP61baPUvZY_Cl-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-15" value="获取到上升完成信号&lt;br&gt;1.发送上盖下压信号" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-17" target="0yhc_yyP61baPUvZY_Cl-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-17" target="0yhc_yyP61baPUvZY_Cl-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-35" value="&lt;font color=&quot;#f50a0a&quot;&gt;NG&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0yhc_yyP61baPUvZY_Cl-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.4667" y="3" relative="1" as="geometry">
+            <mxPoint x="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-17" value="获取到下压到位信号&lt;br&gt;1.开始气检(充气)" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-19" target="0yhc_yyP61baPUvZY_Cl-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0yhc_yyP61baPUvZY_Cl-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-36" value="&lt;font color=&quot;#ff0000&quot;&gt;NG&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0yhc_yyP61baPUvZY_Cl-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.4385" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-19" value="获取到充气完成信号&lt;br&gt;1.发送保压信号&lt;br&gt;2.开始大漏测试" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-21" target="0yhc_yyP61baPUvZY_Cl-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-21" target="0yhc_yyP61baPUvZY_Cl-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-37" value="&lt;font color=&quot;#ff0000&quot;&gt;NG&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0yhc_yyP61baPUvZY_Cl-34" vertex="1" connectable="0">
+          <mxGeometry x="-0.4117" y="2" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-21" value="获取到大漏完成信号&lt;br&gt;1.发送微漏测试" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-23" target="0yhc_yyP61baPUvZY_Cl-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-23" value="获取到微漏完成信号&lt;br&gt;1.提示“测试通过”&lt;br&gt;2.发送气缸上升信号&lt;br&gt;3.定位下降信号&lt;br&gt;4.解锁信号" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="880" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-25" target="0yhc_yyP61baPUvZY_Cl-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-25" value="提示“手动转动转盘”&lt;br&gt;获取到转盘转动信号&lt;br&gt;1.发送加锁信号&lt;br&gt;2.机械卡位升起" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="1010" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0yhc_yyP61baPUvZY_Cl-27" target="0yhc_yyP61baPUvZY_Cl-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-27" value="获取到转盘到位信号&lt;br&gt;1.产品有无检测&lt;br&gt;2.产品防错检测&lt;br&gt;3.发送扫码信号" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-29" value="获取到SN后&lt;br&gt;1.发送定位上升信号&lt;br&gt;2.开始下一轮" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yhc_yyP61baPUvZY_Cl-31" value="&lt;font color=&quot;#ff0000&quot;&gt;手动：&lt;br&gt;1.拉开红箱&lt;br&gt;2.气缸下压抬起&lt;br&gt;3.定位下降&lt;br&gt;4.解锁&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="790" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BRIWFFj-9NP1_3V6pPQQ" name="半自动镜头点胶&amp;固化">
+    <mxGraphModel dx="1195" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0KrrtmNTjdJp1i51313p-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" parent="1" source="0KrrtmNTjdJp1i51313p-1" target="0KrrtmNTjdJp1i51313p-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0KrrtmNTjdJp1i51313p-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" parent="1" source="0KrrtmNTjdJp1i51313p-2" target="gfa0hFArg03PE0AVaD3J-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0KrrtmNTjdJp1i51313p-2" value="获取到请求点胶信号&lt;br&gt;1.发送点胶指令" style="whiteSpace=wrap;html=1;rounded=1;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="423" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" parent="1" source="gfa0hFArg03PE0AVaD3J-1" target="gfa0hFArg03PE0AVaD3J-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-1" value="收到点胶结果&lt;br&gt;1.确认点胶数量和结果&lt;br&gt;2.回复" style="whiteSpace=wrap;html=1;rounded=1;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="526" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" parent="1" source="gfa0hFArg03PE0AVaD3J-3" target="gfa0hFArg03PE0AVaD3J-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-3" value="收到固化请求&lt;br&gt;1.发送固化指令" style="whiteSpace=wrap;html=1;rounded=1;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="629" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gfa0hFArg03PE0AVaD3J-5" target="gfa0hFArg03PE0AVaD3J-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-5" value="收到固化结果&lt;br&gt;1.确认固化时间&lt;br&gt;2.回复" style="whiteSpace=wrap;html=1;rounded=1;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="732" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-7" value="显示点胶和固化结果&lt;br&gt;1.SN&lt;br&gt;2.载盘码&lt;br&gt;3.固化开始时间&lt;br&gt;4.固化结束时间&lt;br&gt;5.固化耗费时间(S)&lt;br&gt;6.标准固化时间(S)&lt;br&gt;7.点胶&amp;amp;固化结果" style="whiteSpace=wrap;html=1;rounded=1;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1010" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gfa0hFArg03PE0AVaD3J-12" target="0KrrtmNTjdJp1i51313p-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="870" />
+              <mxPoint x="800" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-19" value="&lt;font color=&quot;#ff0000&quot;&gt;NG&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gfa0hFArg03PE0AVaD3J-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.128" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="gfa0hFArg03PE0AVaD3J-12" target="gfa0hFArg03PE0AVaD3J-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="gfa0hFArg03PE0AVaD3J-12" target="gfa0hFArg03PE0AVaD3J-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-24" value="&lt;font color=&quot;#00ff00&quot;&gt;PASS&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gfa0hFArg03PE0AVaD3J-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.8583" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-12" value="判定点胶和固化结果" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="830" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gfa0hFArg03PE0AVaD3J-20" value="PASS过站，上传点胶结果和固化时间到MES" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="v126scezrXs9f1oXEzF3" name="半自动快门线点胶&amp;固化">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kgFXNE5GRL7gZH23s35z-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kgFXNE5GRL7gZH23s35z-1" target="kgFXNE5GRL7gZH23s35z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kgFXNE5GRL7gZH23s35z-1" value="获取SN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kgFXNE5GRL7gZH23s35z-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kgFXNE5GRL7gZH23s35z-2" target="kgFXNE5GRL7gZH23s35z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kgFXNE5GRL7gZH23s35z-2" value="获取到关门信号&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.显示点胶中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.发送点胶指令&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kgFXNE5GRL7gZH23s35z-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kgFXNE5GRL7gZH23s35z-4" target="kgFXNE5GRL7gZH23s35z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kgFXNE5GRL7gZH23s35z-4" value="获取到点胶完成信号&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.显示固化中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.发送固化指令&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kgFXNE5GRL7gZH23s35z-6" value="收到下料信号&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
