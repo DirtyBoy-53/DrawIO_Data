@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-12-27T01:35:20.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="JrwaAImvoU_F4OknPCXs" version="22.1.2" type="device">
+  <diagram name="内存不足导致系统崩溃解决方案" id="3sDCa9MHPhz66Sz_2KQU">
+    <mxGraphModel dx="6707" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;spacing=3;" edge="1" parent="1" source="PAjP4F-cjcnWvBOjO_WK-2" target="PAjP4F-cjcnWvBOjO_WK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;spacing=3;" edge="1" parent="1" source="PAjP4F-cjcnWvBOjO_WK-4" target="PAjP4F-cjcnWvBOjO_WK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-4" value="启动真值系统" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="130" y="333" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;spacing=3;" edge="1" parent="1" source="PAjP4F-cjcnWvBOjO_WK-5" target="PAjP4F-cjcnWvBOjO_WK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-5" value="获取当前所有盘符、并统计大小" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="130" y="457" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;spacing=3;" edge="1" parent="1" source="PAjP4F-cjcnWvBOjO_WK-6" target="PAjP4F-cjcnWvBOjO_WK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-6" value="根据当前盘符剩余容量，弹窗推荐选择盘符" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="130" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-8" value="1、推荐目录&lt;br&gt;2、可供手动修改目录&lt;br&gt;3、动修改配置文件中的保存路径" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="580" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;spacing=3;" edge="1" parent="1" source="PAjP4F-cjcnWvBOjO_WK-9" target="PAjP4F-cjcnWvBOjO_WK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-9" value="窗口可实时显示系统信息" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="130" y="703" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-11" value="1、CPU占用率&lt;br&gt;2、内存占用率&lt;br&gt;3、各个磁盘占用率" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="710" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;spacing=3;" edge="1" parent="1" source="PAjP4F-cjcnWvBOjO_WK-12" target="PAjP4F-cjcnWvBOjO_WK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-12" value="存储磁盘空间监控" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=0;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="130" y="827" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-14" value="1、警告：当存储磁盘空间低于设置阈值，弹出警告对话框提示。&lt;br&gt;2、终止：当存储磁盘空间低于设置阈值，终止正在运行的采集软件。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="827" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PAjP4F-cjcnWvBOjO_WK-15" value="日志系统间隔1s&lt;br&gt;记录系统信息" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="130" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
